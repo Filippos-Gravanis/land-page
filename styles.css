@@ -1,13 +1,24 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    padding:0px;
+}
 .header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #1F2937;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 ul li{
+    font-size: 18px;
+    color: #E5E7EB;
     margin-left: 7px;
     margin-right: 7px;
 }
 ul{
+    align-self: center;
     display: flex;
     margin: 0;
     padding: 0;
@@ -16,4 +27,39 @@ ul{
 a{
     color: black;
     text-decoration: none;
+}
+.logo{
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.basic_info{
+    gap: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+
+}
+.hero{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8;
+}
+.hero_sub{
+        max-width: 500px;
+        font-size:24px;
+        color:#E5E7EB;
+}
+
+button{
+    height: 30px;
+    width: 90px;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    color: #E5E7EB;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px;
 }
